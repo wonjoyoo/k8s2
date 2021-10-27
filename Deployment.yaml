@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: node
+        image: nginx
         ports:
         - containerPort: 8080
         resources:
