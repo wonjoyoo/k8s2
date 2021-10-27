@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: wonjoyoo/tkg:latest
+        image: harbor222.haas-522.pez.vmware.com/dev/my-image:latest
         ports:
         - containerPort: 8080
         resources:
