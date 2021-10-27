@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: harbor222.haas-522.pez.vmware.com/dev/my-image:latest
+        image: nginx:latest
         ports:
         - containerPort: 8080
         resources:
